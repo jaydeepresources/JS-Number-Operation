@@ -2,12 +2,6 @@ function increase() {
     var no = document.getElementById('spanId').innerText;
     no++;
     document.getElementById('spanId').innerText = no;
-}
-
-function increase() {
-    var no = document.getElementById('spanId').innerText;
-    no++;
-    document.getElementById('spanId').innerText = no;
     setColor();
 }
 
